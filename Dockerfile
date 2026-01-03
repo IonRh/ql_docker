@@ -4,7 +4,7 @@ FROM whyour/qinglong:latest
 RUN apk add --no-cache dcron
 
 # 将自定义脚本和 requirements.txt 复制到容器中的 /ql/custom 目录
-COPY main.sh backup-to-github.sh requirements.txt /ql/custom/
+COPY main.sh backup.sh requirements.txt /ql/custom/
 
 WORKDIR /ql
 
