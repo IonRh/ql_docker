@@ -1,0 +1,17 @@
+pytz
+feedparser
+Pillow
+pyopenssl
+urllib3
+cfscrape
+beautifulsoup4
+cloudscraper
+cryptography
+requests
+canvas
+ping3
+jieba
+aiohttp
+bs4
+userAgent
+selenium
